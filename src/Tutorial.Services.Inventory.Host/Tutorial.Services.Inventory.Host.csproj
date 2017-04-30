@@ -10,8 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Tutorial.Services.Products.Core\Tutorial.Services.Products.Core.csproj" />
+    <ProjectReference Include="..\Tutorial.Services.Inventory.Core\Tutorial.Services.Inventory.Core.csproj" />
   </ItemGroup>
- 
 
 </Project>

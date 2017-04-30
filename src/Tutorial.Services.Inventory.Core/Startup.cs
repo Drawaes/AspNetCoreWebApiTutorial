@@ -1,8 +1,11 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace Tutorial.Services.Products.Core
+namespace Tutorial.Services.Inventory.Core
 {
     public class Startup
     {

@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Hosting;
 using System;
-using Tutorial.Services.Products.Core;
+using Tutorial.Services.Inventory.Core;
 
-namespace Tutorial.Services.Products.Host
+namespace Tutorial.Services.Inventory.Host
 {
     class Program
     {

@@ -7,25 +7,27 @@ using Tutorial.Services.Products.Core.Models;
 namespace Tutorial.Services.Products.Core.Controllers
 {
     [Route("api/[controller]")]
-    public class CarController : Controller
+    public class CarController : ControllerBase
     {
-        private static Car[] _cars = new Car[]
+        private static CarModel[] s_cars = new CarModel[]
         {
-            new Car()
+            new CarModel()
             {
-                Make = "BMW",
-                Model = "M3"
-            },
-            new Car()
-            {
+                CarId = "Nissan-GTR",
                 Make = "Nissan",
                 Model = "GTR"
+            },
+            new CarModel()
+            {
+                CarId = "BMW-M3",
+                Make = "BMW",
+                Model = "M3"
             }
         };
 
-        public IEnumerable<Car> Get()
+        public IEnumerable<CarModel> Get()
         {
-            return _cars;  
+            return s_cars;
         }
     }
 }
