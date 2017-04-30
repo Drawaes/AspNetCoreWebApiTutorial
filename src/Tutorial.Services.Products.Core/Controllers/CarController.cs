@@ -25,6 +25,7 @@ namespace Tutorial.Services.Products.Core.Controllers
             }
         };
 
+        [HttpGet()]
         public IEnumerable<CarModel> Get()
         {
             return s_cars;

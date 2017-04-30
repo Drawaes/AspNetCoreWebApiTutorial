@@ -25,6 +25,7 @@ namespace Tutorial.Services.Inventory.Core.Controllers
             },
         };
 
+        [HttpGet]
         public IEnumerable<CarStockModel> Get()
         {
             return s_stock;
